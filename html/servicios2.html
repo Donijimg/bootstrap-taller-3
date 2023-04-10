@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calzado</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="icon" href="/iconos/cart-fill.svg">
+  </head>
+  <style> 
+    .fondo{
+            background-color: rgba(0, 0, 0, 0.500);
+        }
+          img{
+            height:100%;
+            width: 100%;
+          }
+          .hover-zoom{
+          border: solid 1px black;
+          overflow: hidden;
+          width: 200px;
+
+        }
+        .hover-zoom img{
+          object-fit: contain;
+        }
+        .hover-zoom:hover img{
+          transition: all 1s ease-in-out;
+          transform: scale(1.5);
+          
+          
+        }
+
+  </style>
+  </head>
+  <body class="bg-white">
+    <nav class="navbar navbar-dark fixed-top col-1">
+      <div class="container-fluid">
+        <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="offcanvas offcanvas-end text-white fondo " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel"style="width:180px;">
+        <div class="offcanvas-header">
+          <h4 class="offcanvas-title text-danger" id="offcanvasDarkNavbarLabel">Fashion of Everyone</h4>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Bienvenidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Registrate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ver</a>
+              <ul class="dropdown-menu bg-danger">
+                <li><a class="dropdown-item" href="./servicios1.html">Galeria De Estilos</a></li>
+                <li><hr class="dropdown-divider bg-white"></li>
+                <li><a class="dropdown-item" href="./servicios3.html">Galeria De Accesorios</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control border-danger bg-transparent me-2 text-danger" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger border-danger text-white" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <div class="container-fluid col-10 my-5 bg-dark rounded-5  d-flex justify-content-center">
+      <div class="container  gap-2 d-flex-column text-center col-12 m-3 p-3">
+        <div class="row d-flex justify-content-center">
+    <img class="p-2 rounded-5  col-md-3"src="/Calzado/Calzado-1.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="">
+    <img  class="p-2 rounded-5 col-md-3"src="/Calzado/Calzado-2.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="">
+    <img class="p-2 rounded-5  col-md-4" src="/Calzado/Calzado-3.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    <img class="p-2 rounded-5  col-md-5" src="/Calzado/Calzado-4.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    <img class="p-2 rounded-5  col-md-2" src="/Calzado/Calzado-5.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    <img class="p-2 rounded-5  col-md-3" src="/Calzado/Calzado-6.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    
+    <img  class="p-2 rounded-5  col-md-2"src="/Calzado/Calzado-7.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="">
+    <img class="p-2 rounded-5  col-md-2" src="/Calzado/Calzado-8.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    <img class="p-2 rounded-5  col-md-2" src="/Calzado/Calzado-9.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    <img class="p-2 rounded-5  col-md-2"src="/Calzado/Calzado-10.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="">
+    <img class="p-2 rounded-5  col-md-2" src="/Calzado/Calzado-11.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    <img class="p-2 rounded-5  col-md-3" src="/Calzado/Calzado-12.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+
+    <img  class="p-2 rounded-5  col-md-3"src="/Calzado/Calzado-13.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="">
+    <img class="p-2 rounded-5  col-md-3" src="/Calzado/Calzado-14.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">      
+      <img class="p-2 rounded-5  col-md-3" src="Calzado/Calzados-15.jpg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"alt="">
+    </div>
+      </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header ">
+            <div class="container text-center">
+              <h5 class=" text-center">¿Quieres comprar el articulo?</h5>
+            </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Por Favor Diligencia tu registro <br>
+            ¡Ve el contenido animete!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-dark"><a class="text-light" href="#contacto">Registrar</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <footer class="container-fluid d-block justify-content-center">
+      <div class="text-center my-5">
+      <button class="btn btn-danger text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Developed By</button>
+      
+      <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header bg-danger">
+      <button type="button" class="btn-close bg-light rounded-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small bg-danger ">
+      <p class="fs-3 text-light">Creado por: &copy Donijimg - Doncan Alejandro Gonzalez Jimenez </p>
+      </div>
+      </div>
+      </div>
+      </footer>
+<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
